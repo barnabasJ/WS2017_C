@@ -1,0 +1,87 @@
+# timestamp | duration | file | instruction | dir | modtime | etag | size | fileId | status | errorString | http result code | other size | other modtime | other etag | other fileId | other instruction
+#=#=#=# Syncrun started 2017-10-30T17:31:05
+#=#=#=#=# Propagation starts 2017-10-30T17:31:05 (last step: 90 msec, total: 90 msec)
+||countVocals|INST_NEW|Up|1509358622||8664||1|Connection refused|0|0|0|||INST_NONE|
+||a.out|INST_NEW|Up|1508928557||8608||1|Operation canceled|0|0|0|||INST_NONE|
+||char.c|INST_NEW|Up|1508500351||116||1|Operation canceled|0|0|0|||INST_NONE|
+||countA|INST_NEW|Up|1508834248||8608||1|Operation canceled|0|0|0|||INST_NONE|
+||countAs.c|INST_NEW|Up|1508834477||362||1|Operation canceled|0|0|0|||INST_NONE|
+||countVocals.c|INST_NEW|Up|1509358619||650||1|Operation canceled|0|0|0|||INST_NONE|
+#=#=#=# Syncrun finished 2017-10-30T17:31:05 (last step: 188 msec, total: 279 msec)
+#=#=#=# Syncrun started 2017-10-30T17:31:16
+#=#=#=# Syncrun finished 2017-10-30T17:31:16 (last step: 13 msec, total: 13 msec)
+#=#=#=# Syncrun started 2017-10-30T17:32:38
+#=#=#=#=# Propagation starts 2017-10-30T17:32:38 (last step: 91 msec, total: 91 msec)
+16:32:38||countVocals|INST_NEW|Up|1509358622|d0a2ccc706eb71030bd2b80556a33773|8664|00004233ocftf1vonpu4|4||201|0|0|||INST_NONE|
+16:32:38||hello.c|INST_NEW|Up|1507182217|8be923233ce121a55f447c4a9c4bc96f|73|00004234ocftf1vonpu4|4||201|0|0|||INST_NONE|
+16:32:38||multiplication.c|INST_NEW|Up|1508304669|0e31bb8ef772b5382eebb96fa44b11f6|170|00004235ocftf1vonpu4|4||201|0|0|||INST_NONE|
+16:32:38||fak|INST_NEW|Up|1508165529|cb69ca501453a594cb1ef683d802155d|8584|00004236ocftf1vonpu4|4||201|0|0|||INST_NONE|
+16:32:38||fak.c|INST_NEW|Up|1507182162|665434f2f88ded08cff4570b0653e531|217|00004237ocftf1vonpu4|4||201|0|0|||INST_NONE|
+16:32:38||multiplication|INST_NEW|Up|1508304671|2fba8d88219139d6bde61ff4b2244850|8560|00004238ocftf1vonpu4|4||201|0|0|||INST_NONE|
+16:32:39||nimm.c|INST_NEW|Up|1509083831|368f416c407ff9e1b5fbbcd108b09893|1544|00004239ocftf1vonpu4|4||201|0|0|||INST_NONE|
+16:32:39||nimm|INST_NEW|Up|1509082136|0276e03303476e9b49405fa8e1c076d3|8608|00004240ocftf1vonpu4|4||201|0|0|||INST_NONE|
+16:32:39||palindrom|INST_NEW|Up|1508835322|8fbec52da7337816abdd0f77b7127d12|8608|00004241ocftf1vonpu4|4||201|0|0|||INST_NONE|
+16:32:39||palindrom.c|INST_NEW|Up|1508836359|838bc2d596f0a9dd6e2ba8e5c56c452d|549|00004242ocftf1vonpu4|4||201|0|0|||INST_NONE|
+16:32:39||primzahl|INST_NEW|Up|1507126255|6d8cee10f8f5e15f86cab842fa66962d|9944|00004243ocftf1vonpu4|4||201|0|0|||INST_NONE|
+16:32:39||primzahl.c|INST_NEW|Up|1508928556|8f3cd52d79fc690de25720eda670e4f4|594|00004244ocftf1vonpu4|4||201|0|0|||INST_NONE|
+16:32:39||raise|INST_NEW|Up|1507189660|3f82c4b34d08a6199da8f8bdeab35cc2|9760|00004245ocftf1vonpu4|4||201|0|0|||INST_NONE|
+16:32:40||raise.c|INST_NEW|Up|1507377826|909a2153f26656f15f25bd2483a89efe|189|00004246ocftf1vonpu4|4||201|0|0|||INST_NONE|
+16:32:40||schachbrett|INST_NEW|Up|1507182981|f8fd5936088d2f7e26006f7569fa4bc6|9840|00004247ocftf1vonpu4|4||201|0|0|||INST_NONE|
+16:32:40||schachbrett.c|INST_NEW|Up|1507189360|2c697565508dacbd8d22a49ac5fe2250|245|00004248ocftf1vonpu4|4||201|0|0|||INST_NONE|
+16:32:40||schaltjahr|INST_NEW|Up|1509029194|0c4b3d55400f05aa219368fbe1124673|8608|00004249ocftf1vonpu4|4||201|0|0|||INST_NONE|
+16:32:40||schaltjahr.c|INST_NEW|Up|1509036451|35c31f9d6b3f12fa03b139dad8d59b34|348|00004250ocftf1vonpu4|4||201|0|0|||INST_NONE|
+16:32:40||upcase|INST_NEW|Up|1508836597|a685afc09e79d56349a7c5d1448f7afd|8608|00004251ocftf1vonpu4|4||201|0|0|||INST_NONE|
+16:32:40||upcase.c|INST_NEW|Up|1508836594|d528eca909df88b57bf67eaec8d6e8a5|372|00004252ocftf1vonpu4|4||201|0|0|||INST_NONE|
+#=#=#=# Syncrun finished 2017-10-30T17:32:41 (last step: 2597 msec, total: 2688 msec)
+#=#=#=# Syncrun started 2017-10-30T18:44:48
+#=#=#=#=# Propagation starts 2017-10-30T18:44:48 (last step: 259 msec, total: 259 msec)
+#=#=#=# Syncrun finished 2017-10-30T18:44:48 (last step: 5 msec, total: 264 msec)
+#=#=#=# Syncrun started 2017-10-30T19:23:18
+#=#=#=#=# Propagation starts 2017-10-30T19:23:18 (last step: 132 msec, total: 132 msec)
+#=#=#=# Syncrun finished 2017-10-30T19:23:18 (last step: 6 msec, total: 139 msec)
+#=#=#=# Syncrun started 2017-10-31T07:35:04
+#=#=#=#=# Propagation starts 2017-10-31T07:35:04 (last step: 386 msec, total: 386 msec)
+#=#=#=# Syncrun finished 2017-10-31T07:35:04 (last step: 4 msec, total: 391 msec)
+#=#=#=# Syncrun started 2017-10-31T07:38:40
+#=#=#=#=# Propagation starts 2017-10-31T07:38:40 (last step: 237 msec, total: 237 msec)
+#=#=#=# Syncrun finished 2017-10-31T07:38:40 (last step: 6 msec, total: 244 msec)
+#=#=#=# Syncrun started 2017-10-31T07:40:48
+#=#=#=#=# Propagation starts 2017-10-31T07:40:48 (last step: 219 msec, total: 219 msec)
+#=#=#=# Syncrun finished 2017-10-31T07:40:48 (last step: 85 msec, total: 305 msec)
+#=#=#=# Syncrun started 2017-10-31T09:52:56
+#=#=#=#=# Propagation starts 2017-10-31T09:52:56 (last step: 539 msec, total: 539 msec)
+#=#=#=# Syncrun finished 2017-10-31T09:52:56 (last step: 10 msec, total: 550 msec)
+#=#=#=# Syncrun started 2017-10-31T14:41:48
+#=#=#=#=# Propagation starts 2017-10-31T14:41:48 (last step: 227 msec, total: 227 msec)
+13:41:48||isPrime|INST_NEW|Up|1509445025|2478041662acdeadbdd94b97a292c701|8608|00026199ocftf1vonpu4|4||201|0|0|||INST_NONE|
+13:41:48||primes.c|INST_NEW|Up|1509445405|00fafee6f34a90d70bbe206f2154d1c7|1000|00026200ocftf1vonpu4|4||201|0|0|||INST_NONE|
+13:41:48||primes|INST_NEW|Up|1509445407|9718f38276f7207122bc871183cc4eba|8680|00026201ocftf1vonpu4|4||201|0|0|||INST_NONE|
+13:41:48||stringToInt|INST_NEW|Up|1509441747|abdf637c811337ec0a771bccaf22830f|8688|00026202ocftf1vonpu4|4||201|0|0|||INST_NONE|
+13:41:48||primzahl.c|INST_SYNC|Up|1509442769|0344c2cecca25a1ad9196adae941b0bf|594|00004244ocftf1vonpu4|4||204|594|1508928556|8f3cd52d79fc690de25720eda670e4f4|00004244ocftf1vonpu4|INST_NONE|
+13:41:49||stringToInt.c|INST_NEW|Up|1509442219|94c5858a529574023d6668e1f8f7468f|634|00026207ocftf1vonpu4|4||201|0|0|||INST_NONE|
+13:41:48||primzahl|INST_SYNC|Up|1509442662|35bafe544991dd96e28bdce43ad4a767|8648|00004243ocftf1vonpu4|4||204|9944|1507126255|6d8cee10f8f5e15f86cab842fa66962d|00004243ocftf1vonpu4|INST_NONE|
+#=#=#=# Syncrun finished 2017-10-31T14:41:50 (last step: 1876 msec, total: 2104 msec)
+#=#=#=# Syncrun started 2017-10-31T14:42:38
+#=#=#=#=# Propagation starts 2017-10-31T14:42:38 (last step: 195 msec, total: 195 msec)
+#=#=#=# Syncrun finished 2017-10-31T14:42:38 (last step: 9 msec, total: 205 msec)
+#=#=#=# Syncrun started 2017-10-31T14:46:44
+#=#=#=#=# Propagation starts 2017-10-31T14:46:44 (last step: 321 msec, total: 321 msec)
+13:46:44||a.out|INST_REMOVE|Up|1508928557|45d5ea75992f6f8374682e29bf296e24|8608|00004229ocftf1vonpu4|4||204|0|0|||INST_NONE|
+13:46:45||countA|INST_REMOVE|Up|1508834248|bbc52a33ffa5d6b0fcc14073fd3753e6|8608|00004232ocftf1vonpu4|4||204|0|0|||INST_NONE|
+13:46:45||countVocals|INST_REMOVE|Up|1509358622|d0a2ccc706eb71030bd2b80556a33773|8664|00004233ocftf1vonpu4|4||204|0|0|||INST_NONE|
+13:46:45||isPrime|INST_REMOVE|Up|1509445025|2478041662acdeadbdd94b97a292c701|8608|00026199ocftf1vonpu4|4||204|0|0|||INST_NONE|
+13:46:45||fak|INST_REMOVE|Up|1508165529|cb69ca501453a594cb1ef683d802155d|8584|00004236ocftf1vonpu4|4||204|0|0|||INST_NONE|
+13:46:45||nimm|INST_REMOVE|Up|1509082136|0276e03303476e9b49405fa8e1c076d3|8608|00004240ocftf1vonpu4|4||204|0|0|||INST_NONE|
+13:46:45||multiplication|INST_REMOVE|Up|1508304671|2fba8d88219139d6bde61ff4b2244850|8560|00004238ocftf1vonpu4|4||204|0|0|||INST_NONE|
+13:46:46||primes|INST_REMOVE|Up|1509445407|9718f38276f7207122bc871183cc4eba|8680|00026201ocftf1vonpu4|4||204|0|0|||INST_NONE|
+13:46:46||palindrom|INST_REMOVE|Up|1508835322|8fbec52da7337816abdd0f77b7127d12|8608|00004241ocftf1vonpu4|4||204|0|0|||INST_NONE|
+13:46:46||raise|INST_REMOVE|Up|1507189660|3f82c4b34d08a6199da8f8bdeab35cc2|9760|00004245ocftf1vonpu4|4||204|0|0|||INST_NONE|
+13:46:46||schaltjahr|INST_REMOVE|Up|1509029194|0c4b3d55400f05aa219368fbe1124673|8608|00004249ocftf1vonpu4|4||204|0|0|||INST_NONE|
+13:46:46||schachbrett|INST_REMOVE|Up|1507182981|f8fd5936088d2f7e26006f7569fa4bc6|9840|00004247ocftf1vonpu4|4||204|0|0|||INST_NONE|
+13:46:46||primzahl|INST_REMOVE|Up|1509442662|35bafe544991dd96e28bdce43ad4a767|8648|00004243ocftf1vonpu4|4||204|0|0|||INST_NONE|
+13:46:47||stringToInt|INST_REMOVE|Up|1509441747|abdf637c811337ec0a771bccaf22830f|8688|00026202ocftf1vonpu4|4||204|0|0|||INST_NONE|
+13:46:47||upcase|INST_REMOVE|Up|1508836597|a685afc09e79d56349a7c5d1448f7afd|8608|00004251ocftf1vonpu4|4||204|0|0|||INST_NONE|
+#=#=#=# Syncrun finished 2017-10-31T14:46:48 (last step: 3246 msec, total: 3567 msec)
+#=#=#=# Syncrun started 2017-10-31T14:47:36
+#=#=#=#=# Propagation starts 2017-10-31T14:47:36 (last step: 281 msec, total: 281 msec)
+#=#=#=# Syncrun finished 2017-10-31T14:47:36 (last step: 27 msec, total: 309 msec)
