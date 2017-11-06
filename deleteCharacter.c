@@ -15,16 +15,15 @@ int main(int argc, char *argv[]) {
     strLength = strlen(str);
 
     for (i = 0; i < strLength; i++) {
-      if (str[i] == ch) {
+      if (str[i] == ch)
         nReplaced++;
-      } else {
+      else
         str[i - nReplaced] = str[i];
-      }
     }
     for (i = strLength - (nReplaced); i < strLength; i++) {
       str[i] = '!';
     }
+    printf("%s\n%d\n%d\n", str, strLength, (int)strlen(str));
   }
-  printf("%s\n", str);
   return 1;
 }

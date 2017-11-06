@@ -5,6 +5,20 @@
 #include <stdio.h>
 #include <string.h>
 
+int stringToInt(char *);
+int bauernmulti(int, int);
+
+int main(int argc, char *argv[]) {
+  char *str1;
+  char *str2;
+  if (argc >= 3) {
+    str1 = argv[1];
+    str2 = argv[2];
+    printf("%d\n", bauernmulti(stringToInt(str1), stringToInt(str2)));
+  }
+  return 1;
+}
+
 int stringToInt(char *str) {
   int strLength, i;
   int result = 0;
@@ -25,15 +39,4 @@ int bauernmulti(int factor1, int factor2) {
     factor2 *= 2;
   }
   return product;
-}
-
-int main(int argc, char *argv[]) {
-  char *str1;
-  char *str2;
-  if (argc >= 3) {
-    str1 = argv[1];
-    str2 = argv[2];
-    printf("%d\n", bauernmulti(stringToInt(str1), stringToInt(str2)));
-  }
-  return 1;
 }
