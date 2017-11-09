@@ -16,13 +16,13 @@ int main(int argc, char *argv[]) {
     str2 = argv[2];
     printf("%d\n", bauernmulti(stringToInt(str1), stringToInt(str2)));
   }
-  return 1;
+  return 0;
 }
 
 int stringToInt(char *str) {
   int strLength, i;
   int result = 0;
-  strLength = strlen(str);
+  strLength = (int)strlen(str);
 
   for (i = 0; i < strLength; i++) {
     result = result * 10 + (str[i] - '0');

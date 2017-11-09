@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC = clang-4.0$/;"	m
+CFLAGS	Makefile	/^CFLAGS  = -g -Weverything$/;"	m
+TARGET	Makefile	/^TARGET = $(target)$/;"	m
+bauernmulti	bauernmulti.c	/^int bauernmulti(int factor1, int factor2) {$/;"	f
+compareString	dayOfYear.c	/^int compareString(char *string1, char *string2) {$/;"	f
+fak	fak.c	/^int fak(int n) {$/;"	f
+isLeapYear	dayOfYear.c	/^int isLeapYear(int year) {$/;"	f
+listPrimes	primes.c	/^int listPrimes(int upperBound) {$/;"	f
+main	bauernmulti.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	char.c	/^int main ( int argc, char *argv[] )$/;"	f
+main	countAs.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	countVocals.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	dayOfYear.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	deleteCharacter.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	fak.c	/^int main() {$/;"	f
+main	hello.c	/^int main() {$/;"	f
+main	helloworld.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	intToBin.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	multiplication.c	/^int main(void) {$/;"	f
+main	nimm.c	/^int main() {$/;"	f
+main	palindrom.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	primes.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	primzahl.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	raise.c	/^int main(){$/;"	f
+main	schachbrett.c	/^int main() {$/;"	f
+main	schaltjahr.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	stringToInt.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	upcase.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	whosNext.c	/^int main(int argc, char *argv[]) {$/;"	f
+printBins	intToBin.c	/^void printBins(int num) {}$/;"	f
+reverseNumber	stringToInt.c	/^int reverseNumber(int number) {$/;"	f
+stringToInt	bauernmulti.c	/^int stringToInt(char *str) {$/;"	f
+stringToInt	intToBin.c	/^int stringToInt(char *str) {$/;"	f
+stringToInt	primes.c	/^int stringToInt(char *str) {$/;"	f
+stringToInt	stringToInt.c	/^int stringToInt(char *str) {$/;"	f
+stringToInt	whosNext.c	/^int stringToInt(char *str) {$/;"	f
