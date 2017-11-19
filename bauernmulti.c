@@ -33,8 +33,9 @@ int stringToInt(char *str) {
 int bauernmulti(int factor1, int factor2) {
   int product = 0;
   while (factor1 > 0) {
-    if (factor1 % 2 == 1)
+    if (factor1 % 2 == 1) {
       product += factor2;
+    }
     factor1 /= 2;
     factor2 *= 2;
   }

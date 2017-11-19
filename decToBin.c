@@ -1,22 +1,36 @@
 /*
- * String to Int
+ * Decimal to Binary
  */
 
 #include <stdio.h>
 #include <string.h>
 
+void decToBin(unsigned int);
 int stringToInt(char *);
-int reverseNumber(int);
 
 int main(int argc, char *argv[]) {
   char *str;
   if (argc >= 2) {
     str = argv[1];
     int number = stringToInt(str);
-    printf("%d\n", number);
-    printf("%d\n", reverseNumber(number));
+    decToBin((unsigned int) number);
   }
-  return 1;
+  return 0;
+}
+
+void decToBin(unsigned int dec) {
+  int bin[64] = {0};
+  int i = 0;
+
+  while (dec > 0) {
+    bin[i] = dec % 2;
+    ++i;
+    dec /= 2;
+  }
+  for (--i; i >= 0; --i) {
+    printf("%d", bin[i]);
+  }
+  printf("\n");
 }
 
 int stringToInt(char *str) {
@@ -26,16 +40,6 @@ int stringToInt(char *str) {
 
   for (int i = 0; i < strLength; i++) {
     result = result * 10 + (str[i] - '0');
-  }
-  return result;
-}
-
-int reverseNumber(int number) {
-  int result = 0;
-  while (number > 0) {
-    result *= 10;
-    result += number % 10;
-    number /= 10;
   }
   return result;
 }
