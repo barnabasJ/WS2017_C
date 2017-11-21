@@ -3,11 +3,11 @@
 
 float calculateFromString(char[]);
 
-int main(int argc, char *argv[]) {
-  char tests[4][64] = {"calc 11 + 22", "calc 2 / 4 x 5 - 5", "clac 3 - 2",
-                       "calc 5 x 4 - 10 / 5"};
+int main() {
+  char tests[6][64] = {"calc 11 + 22 x 0", "calc 2 / 4 x 5 - 5", "clac 3 - 2",
+                       "calc 5 x 4 - 10 / 5", "calc 14 x 3 + 375 / 4", "calc 4"};
 
-  for (int i = 0; i < 4; ++i) {
+  for (int i = 0; i < 6; ++i) {
     printf("%.3f\n", (double)calculateFromString(tests[i]));
   }
   return 1;
@@ -15,6 +15,7 @@ int main(int argc, char *argv[]) {
 float calculateFromString(char arithmeticExpression[]) {
   int i = 5;
   int j = 0;
+  int operands = 0;
   char operator= '\0';
   double numbers[2] = {0, 0};
   while (arithmeticExpression[i]) {
@@ -26,11 +27,12 @@ float calculateFromString(char arithmeticExpression[]) {
         i = i + 1;
       }
       j = 1;
+      ++operands;
     } else if (arithmeticExpression[i] != ' ') {
       operator= arithmeticExpression[i];
     }
 
-    if (numbers[1] > 0) {
+    if (operands > 1) {
       if (operator== '+') {
         numbers[0] = numbers[0] + numbers[1];
       } else if (operator== '-') {
@@ -41,6 +43,7 @@ float calculateFromString(char arithmeticExpression[]) {
         numbers[0] = numbers[0] / numbers[1];
       }
       numbers[1] = 0;
+      --operands;
     }
     i = i + 1;
   }
