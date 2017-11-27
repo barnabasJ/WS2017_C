@@ -1,36 +1,23 @@
 /*
- * String to Int
+ * Bauernmultiplikation
+ * Barnabas Jovanovics
  */
-
 #include <stdio.h>
-#include <string.h>
 
-int stringToInt(char *);
-int bauernmulti(int, int);
+#define TESTS 6
 
-int main(int argc, char *argv[]) {
-  char *str1;
-  char *str2;
-  if (argc >= 3) {
-    str1 = argv[1];
-    str2 = argv[2];
-    printf("%d\n", bauernmulti(stringToInt(str1), stringToInt(str2)));
+int bauernmulti(unsigned int, int);
+
+int main() {
+  int values[TESTS] = {3, 54, 11, 45, 100, 33};
+  for (int i = 0; i < (TESTS - 1); i += 2) {
+    printf("%d * %d = %d\n", values[i], values[i + 1],
+           bauernmulti(values[i], values[i + 1]));
   }
   return 0;
 }
 
-int stringToInt(char *str) {
-  int strLength, i;
-  int result = 0;
-  strLength = (int)strlen(str);
-
-  for (i = 0; i < strLength; i++) {
-    result = result * 10 + (str[i] - '0');
-  }
-  return result;
-}
-
-int bauernmulti(int factor1, int factor2) {
+int bauernmulti(unsigned int factor1, int factor2) {
   int product = 0;
   while (factor1 > 0) {
     if (factor1 % 2 == 1) {

@@ -8,10 +8,11 @@ CC = clang-4.0
 CFLAGS  = -g -Weverything
 
 #files to link:
-#LFLAGS = -lcs50
+#LFLAGS = -lbarnabas.h
 
 # require that an argument be provided at the command line for the target name:
 TARGET = $(target)
 
 all: $(TARGET)
 $(TARGET): $(TARGET).c ; $(CC) $(CFLAGS) -o ./build/$(TARGET) $(TARGET).c
+#$(LFLAGS)

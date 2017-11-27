@@ -1,3 +1,7 @@
+/*
+ * Quadratzahl Tabelle
+ * Barnabas Jovanovics
+ */
 #include <stdio.h>
 
 int main() {

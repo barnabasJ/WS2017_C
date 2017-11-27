@@ -1,14 +1,16 @@
 #include <stdio.h>
 #include <string.h>
 
+#define NR_OF_TESTS 6
+
 float calculateFromString(char[]);
 
 int main() {
-  char tests[6][64] = {"calc 11 + 22 x 0", "calc 2 / 4 x 5 - 5", "clac 3 - 2",
+  char tests[NR_OF_TESTS][64] = {"calc 11 + 22 x 0", "calc 2 / 4 x 5 - 5", "clac 3 - 2",
                        "calc 5 x 4 - 10 / 5", "calc 14 x 3 + 375 / 4", "calc 4"};
 
-  for (int i = 0; i < 6; ++i) {
-    printf("%.3f\n", (double)calculateFromString(tests[i]));
+  for (int i = 0; i < NR_OF_TESTS; ++i) {
+    printf("%s = %.3f\n", tests[i], (double)calculateFromString(tests[i]));
   }
   return 1;
 }
