@@ -1,12 +1,14 @@
-int strlength(char * str);
-int ascii2int(char * s);
+#include <stdio.h>
+
+int ascii2int(char *s);
 int digitToInt(char c);
 int isDigit(char c);
 
-int strlength(char *str) {
-  int len = 0;
-  while(str[len]) len++;
-  return len;
+int main(int argc, char *argv[]) {
+  for(int i = 1; i < argc; ++i){
+    printf("%d\n", ascii2int(argv[i]));
+  }
+  return 0;
 }
 
 int ascii2int(char *s) {
