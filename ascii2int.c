@@ -1,3 +1,14 @@
+/*
+ * Ascii to Int
+ *
+ * Barnabas Jovanovics
+ *
+ * Den String von vorne her anschauen und kontrollieren ob an der aktuellen
+ * Stelle eine Ziffer steht, ist das der Fall wird die akutelle Zahl erst um eine 10ner Stelle verschoben
+ * und anschliessend wird die Ziffer in einen Integer umgewandelt und zur gespeicherten Zahl dazu addiert.
+ * Ist die aktuelle Stelle am String keine Ziffer wird die bisher gespeichert Zahl zurueck.
+ *
+ */
 #include <stdio.h>
 
 int ascii2int(char *s);

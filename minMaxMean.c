@@ -2,6 +2,13 @@
  * Arithmetische Mittel + Ausreisser
  *
  * Barnabas Jovanovics
+ *
+ * Ich speichere erst den ersten Wert des Arrays als Startwert
+ * fuer Maximum, Minimum und Durchschnitt ab. Anschliessend gehe ich
+ * das Array durch und zaehle alle Werte zum Durchschnitt dazu. Ich vergleiche
+ * auch immer ob das aktuelle groesser ist als der aktuelle Wert ist das der
+ * Fall tausche ich die Werte aus. Das selbe mach ich mit dem Maximum in die
+ * andere Richtung.
  */
 
 #include <stdio.h>

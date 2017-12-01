@@ -1,4 +1,12 @@
-
+/*
+ * Zinsrechnung
+ *
+ * Barnabas Jovanovics
+ *
+ * Ich habe eine Schleife die beim ersten Jahr anfaengt und bis zum
+ * letzten Jahr (inkludiert) jedes Jahr den Zinsatz dazurechnet und ausgibt
+ *
+ */
 #include <stdio.h>
 
 int main(int argc, char *argv[]) {
