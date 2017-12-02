@@ -9,19 +9,30 @@
  */
 #include <stdio.h>
 
-int main(int argc, char *argv[]) {
-  int interest = 5;
-  float finterest = interest / 100.0 + 1;
+void printInterest(int interestRate, float capital, int duration);
+
+int main() {
+  int interestRate = 5;
   int basicCapital = 1000;
-  float capital = (float) basicCapital;
   int duration = 10;
+
+  printInterest(interestRate, (float) basicCapital, duration);
+
+  return 0;
+}
+
+void printInterest(int interestRate, float capital, int duration) {
+  float finterestRate = (float)(interestRate / 100.0 + 1);
+
+  printf("Kapitalentwicklung für Grundkapital: %d EUR\n", (int) capital);
+  printf("Fixzinssatz: %d%%, Laufzeit %d Jahre\n\n", interestRate, duration);
 
   printf("Jahr\tKapital\n-------------------------------------------\n");
 
   for(int i = 1; i <= duration; ++i){
-    capital *= finterest;
-    printf("%d\t%.2f EUR\n", i,  capital);
+    capital *= finterestRate;
+    printf("%d\t%.2f EUR\n", i,  (double)capital);
   }
-  return 0;
-}
 
+
+}

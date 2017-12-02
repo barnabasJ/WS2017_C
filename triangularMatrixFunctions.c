@@ -18,7 +18,7 @@ void printTriangularMatrixFor(int n);
 void printTriangularMatrixWhile(int n);
 void printTriangularMatrixDoWhile(int n);
 int printRow(int startNumber, int endNumber, int rowLength);
-int printNumbers(int start, int end, int maxCountNumbers, int step);
+int printTabedNumbers(int start, int end, int step);
 
 int main(int argc, char *argv[]) {
   if (argc > 1) {
@@ -69,13 +69,15 @@ void printTriangularMatrixDoWhile(int n) {
  */
 int printRow(int start, int end, int rowLength) {
   int lastPrintedNumber;
-  lastPrintedNumber = printNumbers(start, end, rowLength, 2);
+  int currentLineMaximum =
+      rowLength * 2 + start > end ? end : rowLength * 2 + start;
+  lastPrintedNumber = printTabedNumbers(start, currentLineMaximum, 2);
   printf("\n");
   return lastPrintedNumber;
 }
 
 /*
- * printNumbers
+ * printTabedNumbers
  * start...             erste Zahl die ausgegeben werden soll
  * end...               maximale Zahl bis zu der ausgegeben werden soll
  * maxCountNumbers...   anzahl der nummern die ausgegeben werden sollen
@@ -83,9 +85,8 @@ int printRow(int start, int end, int rowLength) {
  *
  * return...            letzte Ausgegebene Zahl
  */
-int printNumbers(int start, int end, int maxCountNumbers, int step) {
-  for (int printedNumbers = 0; printedNumbers < maxCountNumbers && start < end;
-       ++printedNumbers) {
+int printTabedNumbers(int start, int end, int step) {
+  for (int printedNumbers = 0; start < end; ++printedNumbers) {
     printf("%d\t", start);
     start += step;
   }
