@@ -62,7 +62,7 @@ void printTriangularMatrixDoWhile(int n) {
 /*
  * printRow
  * start...       erste Zahl die ausgegeben werden soll
- * end...         maximale Zahl bis zu der ausgegeben werden soll
+ * end...         maximale Zahl bis zu der ausgegeben werden soll (exklusive)
  * rowLength...   anzahl der nummern die ausgegeben werden sollen
  *
  * return...      letzte Ausgegebene Zahl
@@ -79,7 +79,7 @@ int printRow(int start, int end, int rowLength) {
 /*
  * printTabedNumbers
  * start...             erste Zahl die ausgegeben werden soll
- * end...               maximale Zahl bis zu der ausgegeben werden soll
+ * end...               maximale Zahl bis zu der ausgegeben werden soll (exklusive)
  * maxCountNumbers...   anzahl der nummern die ausgegeben werden sollen
  * step...              abstand zwischen den ausgegbenen Zahlen
  *
