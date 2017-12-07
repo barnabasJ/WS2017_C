@@ -11,13 +11,16 @@
  */
 #include <stdio.h>
 
+#define TESTS 4
+
 int ascii2int(char *s);
 int digitToInt(char c);
 int isDigit(char c);
 
-int main(int argc, char *argv[]) {
-  for(int i = 1; i < argc; ++i){
-    printf("%d\n", ascii2int(argv[i]));
+int main() {
+  char test[TESTS][10] =  {"-12", "0040", "120A", "A02"};
+  for(int i = 0; i < TESTS; ++i){
+    printf("%d\n", ascii2int(test[i]));
   }
   return 0;
 }

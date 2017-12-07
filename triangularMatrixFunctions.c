@@ -14,21 +14,23 @@
 #include "barnabas.h"
 #include <stdio.h>
 
+#define TESTS 4
+
 void printTriangularMatrixFor(int n);
 void printTriangularMatrixWhile(int n);
 void printTriangularMatrixDoWhile(int n);
 int printRow(int startNumber, int endNumber, int rowLength);
 int printTabedNumbers(int start, int end, int step);
 
-int main(int argc, char *argv[]) {
-  if (argc > 1) {
-    int n = ascii2int(argv[1]);
+int main() {
+  int test[TESTS] = {1, 100, 17, 20};
+  for (int i = 0; i < TESTS; ++i) {
     printf("For\n\n");
-    printTriangularMatrixFor(n);
+    printTriangularMatrixFor(test[i]);
     printf("\nWhile\n\n");
-    printTriangularMatrixWhile(n);
+    printTriangularMatrixWhile(test[i]);
     printf("\nDo While\n\n");
-    printTriangularMatrixDoWhile(n);
+    printTriangularMatrixDoWhile(test[i]);
   }
   return 0;
 }
@@ -79,7 +81,8 @@ int printRow(int start, int end, int rowLength) {
 /*
  * printTabedNumbers
  * start...             erste Zahl die ausgegeben werden soll
- * end...               maximale Zahl bis zu der ausgegeben werden soll (exklusive)
+ * end...               maximale Zahl bis zu der ausgegeben werden soll
+ * (exklusive)
  * maxCountNumbers...   anzahl der nummern die ausgegeben werden sollen
  * step...              abstand zwischen den ausgegbenen Zahlen
  *

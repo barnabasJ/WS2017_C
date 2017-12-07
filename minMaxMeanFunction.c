@@ -13,7 +13,7 @@
 
 #include <stdio.h>
 
-int minMaxMean(int valuesLen, int values[], int *min, int *max, float *mean);
+int minMaxMean(int valuesLen, int values[], int *pmin, int *pmax, float *pmean);
 
 int main() {
   int values[] = {1,2,3,0,5,-4};
@@ -31,7 +31,7 @@ int main() {
   return 0;
 }
 
-int minMaxMean(int valuesLen, int values[], int *min, int *max, float *mean) {
+int minMaxMean(int valuesLen, int values[], int *pmin, int *pmax, float *pmean) {
   int minimum = values[0];
   int maximum = values[0];
   int sum = values[0];
@@ -40,9 +40,9 @@ int minMaxMean(int valuesLen, int values[], int *min, int *max, float *mean) {
     minimum = minimum > values[i] ? values[i] : minimum;
     maximum = maximum < values[i] ? values[i] : maximum;
   }
-  (*mean) = (float)sum / valuesLen;
-  (*min) = minimum;
-  (*max) = maximum;
+  (*pmean) = (float)sum / valuesLen;
+  (*pmin) = minimum;
+  (*pmax) = maximum;
 
   return 0;
 }

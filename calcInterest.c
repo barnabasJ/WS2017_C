@@ -12,9 +12,12 @@
 void printInterest(int interestRate, float capital, int duration);
 
 int main() {
-  int interestRate = 5;
-  int basicCapital = 1000;
-  int duration = 10;
+  //int interestRate = 5;
+  int interestRate = 8;
+  //int basicCapital = 1000;
+  int basicCapital = 4500;
+  //int duration = 10;
+  int duration = 20;
 
   printInterest(interestRate, (float) basicCapital, duration);
 
@@ -31,7 +34,7 @@ void printInterest(int interestRate, float capital, int duration) {
 
   for(int i = 1; i <= duration; ++i){
     capital *= finterestRate;
-    printf("%d\t%.2f EUR\n", i,  (double)capital);
+    printf("%3d\t%10.2f EUR\n", i,  (double)capital);
   }
 
 
