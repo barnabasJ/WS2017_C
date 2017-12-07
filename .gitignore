@@ -1,3 +1,5 @@
 a.out
 build/
 tags
+*.o
+*.a
